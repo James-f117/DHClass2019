@@ -1,6 +1,37 @@
-head{background-color: #33ff9f}
-body{background-color: #33ff9f }
+ul#nav {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+li.navButton{
+    float: left;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover{
+background-color: blue;
+}
+.active{
+    background-color: red;
+}
+.main-index{
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+}
+body{
+
+
+}
 h1{color: #7c0278}
 h2{color: #8b0000}
 h3{color:#000000}
-div.img{background-color:#33ff9f; float:left; width:400%}
